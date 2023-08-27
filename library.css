@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  html,body {
+    width: 100%;
+    height: 100%;
+  }
+
+h1{
+    margin: 0 auto;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+.form {
+    visibility: hidden;
+}
+
+.addBooks {
+    padding: 1em;
+    background-color: black;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+.library {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.form {
+    margin-top: 20px;;
+}
+
+.form input {
+    display: block;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid rgba(175, 169, 169, 0.712);
+}
+
+.submit {
+    width: 14.5em;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.bookDisplay {
+    background-color: rgb(0, 0, 0);
+    width: 100vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.flex {
+    height: 100vh;
+    display: flex;
+    align-items: flex-end;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly ;
+    margin-top: 10px;
+}
+
+.navbar li {
+    list-style: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.bookValues {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bookValues li{
+    margin-top: 20px;
+    list-style: none;
+    font-weight: 600;   
+    color: rgb(255, 255, 255)
+}
+.bookValues li:nth-child(1){
+    margin-left: -30px;
+}
+.remove {
+    font-size: 10px;
+    border: none;
+    padding: 0.5em;
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+}
